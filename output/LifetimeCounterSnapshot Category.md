@@ -11,7 +11,6 @@ LifetimeCounterSnaphot schema has been been evolving in order to support more us
 CDM Gun Support
 
 Sirius
-
 com.hp.cdm.service.eventing.resource.eventDetail.type.lifetimeCounterSnapshot.platform.sirius (versions 1.0.0, 1.1.0, 1.2.0, 1.3.0)
 
 deployed on early versions of firmware supporting CDM (dual reporting CDM/LEDM)
@@ -19,33 +18,26 @@ deployed on early versions of firmware supporting CDM (dual reporting CDM/LEDM)
 Fleet
 
 com.hp.cdm.service.eventing.resource.eventDetail.type.lifetimeCounterSnapshot (1.0.0, 1.1.0, 1.2.0)
-
 deployed on SOL firmware (dual reporting CDM/LEDM)
-
 known as "fleet (service)"
 
 com.hp.cdm.domain.telemetry.type.eventDetail.category.lifetimeCounterSnapshot (1.0.0, 1.1.0, ongoing)
-
 deployed with Dune & Ares
-
 compatible with DeviceUsageService
-
 known as "fleet (domain)"
 
 CDM Shared Types Utilized
 
-- Supply Shared Types
-- Device Usage Shared Types
-- Glossary
+Supply Shared Types
+Device Usage Shared Types
+Glossary
 
 Definitions and Metering Strategies
 
 From the Page Counters Implementers Guide
 
 Impression counts are counts on what occurs on one side of a sheet of paper (i.e. the marking agent applied to that side, the print mode setting for that side, etc.)
-
 Sheet counts are counts on what occurs to an entire sheet of paper as it moves through the device (i.e. input source, duplexer, finishing, etc.).
-
 Impression is one side of a page that has ink/toner on it and jammed/cancelled/blank pages should not be counted for it
 
 What to Meter - At Page Picked or Page Delivered
